@@ -1,12 +1,12 @@
 var prompt  = require('prompt');
 prompt.start();
 
-console.log("Which ever number you assign to foo a ba will be replace it in the counter");
+console.log("Hi.");
 
 prompt.get([
     {
         name: 'counter',
-        description: 'How higth you want me to count. Give me a number',
+        description: 'How high you want me to count. Give me a number',
         type: 'integer',
         required: true,
         message: 'Please, do not use 0.',
@@ -21,7 +21,7 @@ prompt.get([
 
     {
         name: 'foo',
-        description: 'Assign Foo an integer value between.',
+        description: 'Assign Foo an integer value.',
         type: 'integer',
         required: true,
         message: 'Please, do not use 0',
